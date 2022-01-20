@@ -42,7 +42,7 @@ public class InfluxProducer {
     private static String getDiskSpace() {
         File cDrive = new File("/");
         return String.format("%.2f",
-                (double)cDrive.getTotalSpace() /1073741824);
+                (double)cDrive.getFreeSpace() /1073741824);
     }
     /**
      * schemas https://pulsar.apache.org/docs/en/schema-understand/
