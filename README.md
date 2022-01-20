@@ -1,3 +1,6 @@
+
+# Based on StreamNative example
+# also see https://github.com/tspannhw/FLiP-Jetson/
 # Overview
 
 This document describes how to produce messages to and consume messages from a Apache Pulsar cluster using the Java Producer and Consumer API.
