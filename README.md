@@ -77,5 +77,8 @@ bin/pulsar-admin sinks get --tenant public --namespace default --name influxdb-s
 bin/pulsar-admin sinks status --tenant public --namespace default --name influxdb-sink-jetson
 ````
 
+### References
 
+* https://www.baeldung.com/java-influxdb
+* https://www.baeldung.com/iot-data-pipeline-mqtt-nifi
 
